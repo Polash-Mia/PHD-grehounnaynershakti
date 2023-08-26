@@ -1,0 +1,60 @@
+.ratting{
+    font-size: 130px;
+    font-weight: bolder;
+}
+/* .socail-icon{
+    height:  50px;
+    width: 50px;
+    clip-path: circle();
+    
+} */
+
+.iconn{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #07792b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: #42d571;
+    transition: .4s;
+}
+.iconn:hover{
+    border: 1px solid #07792b;
+    background-color: transparent;
+}
+
+.website-color{
+    /* background-color: #42d571; */
+    color: #42d571;
+}
+
+.choose_us .col-md-4:hover{
+    background-color: antiquewhite;
+    
+}
+.vision{
+    background-color: antiquewhite;
+    
+}
+.mision{
+    background-color: rgb(235, 175, 96);
+    
+}
+
+.up_arrow i{
+    font-size: 50px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    color: #00acee;
+}
+
+@media only screen and (max-width:767px){
+    header{
+        display: none;
+    }
+}
